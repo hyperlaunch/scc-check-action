@@ -12,9 +12,9 @@ name: SCC Code Report
 on:
   push:
     branches:
-      - master
+      - main
 
-permissions: # Set permissions at workflow level
+permissions: # Set permissions at workflow level - to ensure the check can be written
   contents: read
   checks: write
 
